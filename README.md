@@ -10,3 +10,12 @@ If the value is a multiple of 3 & 5: use the value "FizzBuzz" instead
 Method calling example:
 
 fizzbuzz(3) -->  [1, 2, "Fizz"]
+ 
+INPUT | OUTPUT
+
+1 | [1]
+2 | [1, 2]
+3 | [1, 2, "Fizz"]
+5 | [1, 2, "Fizz", 4, "Buzz"]
+15 | [1, 2, "Fizz", 4, "Buzz", "Fizz", 7, 8, "Fizz", "Buzz", 11, "Fizz", 13, 14, "FizzBuzz"]
+
