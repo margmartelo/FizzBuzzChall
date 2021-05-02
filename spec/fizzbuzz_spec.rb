@@ -10,5 +10,8 @@ describe "fizzbuzz" do
     it "should replace all multiples of 3 by the string 'Fizz'" do
         expect(fizzbuzz(3)).to eq [1, 2, "Fizz"]
     end
-    
+
+    it "should replace all multiples of 5 by the string 'Buzz'" do
+        expect(fizzbuzz(5)).to eq [1, 2, "Fizz", 4, "Buzz"]
+    end
 end
